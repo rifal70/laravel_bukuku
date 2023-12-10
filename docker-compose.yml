@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: laravel_projek_img:tag
+    ports:
+      - "6068:6068"
+    volumes:
+      - C:\Users\Documents\rifal directory\laravel:/var/www/html
